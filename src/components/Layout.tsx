@@ -18,8 +18,10 @@ const Layout = ({ title, description, className, children }: LayoutProps) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className={`min-h-screen w-screen bg-neutral-900 text-white`}>
-          <div className={`mx-8 lg:mx-auto max-w-7xl ${className}`}>
+        <div
+          className={`min-h-screen w-screen bg-neutral-900 text-neutral-200`}
+        >
+          <div className={`mx-8 lg:mx-auto max-w-3xl ${className}`}>
             {children}
           </div>
         </div>
