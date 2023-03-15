@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import localFont from "next/font/local";
+import { Roboto_Slab } from "next/font/google";
 
 const satoshi = localFont({
   src: [
@@ -18,10 +19,17 @@ const satoshi = localFont({
   variable: "--font-satoshi",
 });
 
+const roboto = Roboto_Slab({
+  subsets: ["latin"],
+  variable: "--font-roboto",
+});
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${satoshi.variable} font-sans`}>
-      <Component {...pageProps} />
+    <main className={`${roboto.variable} font-serif`}>
+      <div className={`${satoshi.variable} font-sans`}>
+        <Component {...pageProps} />
+      </div>
     </main>
   );
 }

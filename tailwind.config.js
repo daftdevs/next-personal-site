@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["var(--font-satoshi)", ...fontFamily.sans],
+        serif: ["var(--font-roboto)", ...fontFamily.serif],
       },
     },
   },
