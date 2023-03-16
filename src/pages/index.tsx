@@ -31,16 +31,23 @@ export default function Home() {
           </p>
         </div>
         <div className="flex-row gap-4 hidden lg:flex pt-4 text-neutral-500">
-          <LinkedInLogoIcon
-            width={25}
-            height={25}
-            className="hover:text-white cursor-pointer"
-          />
-          <GitHubLogoIcon
-            width={25}
-            height={25}
-            className="hover:text-white cursor-pointer"
-          />
+          <a
+            target={"_blank"}
+            href="https://www.linkedin.com/in/muhammad-daffa-s"
+          >
+            <LinkedInLogoIcon
+              width={25}
+              height={25}
+              className="hover:text-white cursor-pointer"
+            />
+          </a>
+          <a target={"_blank"} href="https://github.com/daft2">
+            <GitHubLogoIcon
+              width={25}
+              height={25}
+              className="hover:text-white cursor-pointer"
+            />
+          </a>
         </div>
       </div>
     </Layout>
