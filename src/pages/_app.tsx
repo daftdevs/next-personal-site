@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import localFont from "next/font/local";
 import { Roboto_Slab } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const satoshi = localFont({
   src: [
@@ -29,6 +30,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <main className={`${roboto.variable} font-serif`}>
       <div className={`${satoshi.variable} font-sans`}>
         <Component {...pageProps} />
+        <Analytics />
       </div>
     </main>
   );
