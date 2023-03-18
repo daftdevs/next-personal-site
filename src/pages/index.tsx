@@ -6,7 +6,7 @@ const UIPorto = [
   {
     id: 1,
     title: "News Landing Page",
-    image: "/images/Calculator.webp",
+    image: "/images/news-homepage.webp",
     url: "https://frontend-2023-hazel.vercel.app/news-home-page",
   },
   {
