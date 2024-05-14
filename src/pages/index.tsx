@@ -41,7 +41,11 @@ export default function Home() {
       <div className="pt-24 pb-4 max-w-2xl">
         <h1 className="text-7xl font-serif">Hello, world-</h1>
         <div className="pt-12 text-neutral-400 tracking-wide text-xl">
-          <p>I&apos;m Daffa, Software engineer mostly working on frontend.</p>
+          <p>
+            I&apos;m Daffa, I specialize in (but not limited to) crafting
+            intuitive user experiences using technologies such as React Native,
+            ReactJS, and Next.js.
+          </p>
           <p>I enjoyed making beautiful UI for mobile and web applications.</p>
           <p className="pt-4">
             Ive been using this technology the most in my career:{" "}
@@ -55,15 +59,16 @@ export default function Home() {
             Im currently working at{" "}
             <a
               target={"_blank"}
-              href={"https://tinkerlust.com"}
-              className="text-pink-400 cursor-pointer hover:text-pink-500"
+              href={"https://www.linkedin.com/company/inphosoft/mycompany/"}
+              className="text-red-400 cursor-pointer hover:text-red-500"
             >
-              Tinkerlust
+              Inphosoft
             </a>
             , I like to read comics and play video games.
           </p>
           <p className="text-white font-serif pt-4">
-            TL;DR Frontend engineer, nerd hobbies, likes technology
+            TL;DR: Software engineer (specialize in frontend), nerd hobbies,
+            likes technology
           </p>
         </div>
 
